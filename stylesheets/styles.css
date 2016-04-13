@@ -1,0 +1,426 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+
+/* 
+GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+.guestCheckoutDiv {
+margin-bottom: 40px;
+}
+.wc_avatax_validate_address {
+border: 0;
+appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+}
+
+img.social-icon {
+	width: 16px;
+	margin-right: 4px;
+}
+
+div.pp_woocommerce .pp_nav {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+
+div.pp_woocommerce .pp_arrow_previous {
+    margin-right: .5em;
+    position: absolute;
+    top: 20%;
+    font-size: 40px !important;
+}
+
+div.pp_woocommerce .pp_arrow_next {
+    margin-right: .5em;
+    position: absolute;
+    top: 20%;
+    right: 30px;
+    font-size: 40px !important;
+}
+
+.pp_arrow_next:before, div.pp_woocommerce .pp_arrow_previous:before {
+    font-size: 40px;
+}
+
+/*my account login menu */
+#menu-item-741 {
+display: list-item;
+}
+
+#copyright {
+font-size: 12px;
+margin-top: 10px;
+}
+
+/* single post */
+.feature-padding,
+.social-padding {
+margin-bottom: 20px;
+padding: none;
+border: none;
+}
+
+/* not found */
+.search-no-results .large-6.columns {
+padding-left: 0;
+}
+.search-no-results .search {
+list-style: none;
+}
+.search-no-results .screen-reader-text {
+display: none;
+}
+.search-no-results #s {
+margin-left: 0;
+}
+/* header */
+.wc-nav-top > li {
+list-style: none;
+float: left;
+}
+.wc-nav-top > li a{
+padding: 0.5em 1em 0.5em 1em;
+color: #999999;
+text-transform: uppercase;
+font-size: 11px;
+}
+
+/* homepage */
+.home #sb_instagram .sb_instagram_header {
+display: none;
+}
+
+.home .home-instagram {
+text-align: center;
+}
+
+.menu-sidebarmenu-container {
+	display: none;
+}
+#nav-search form {
+display: none;
+}
+
+.cs-hoverbox {
+position: relative;
+}
+
+.position-hoverbox {
+    position: absolute;
+    top: 24%;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}   
+
+.cs-hoverbox .hover {
+    display: none;
+}
+
+.cs-hoverbox:hover .hover {
+    display: block;
+    text-transform: uppercase;
+    font-size: 14px;
+    background: white;
+    width: 50%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 1.875rem;
+}
+
+/* sidebar */
+ul#menu-sidebarmenu {
+list-style: none;
+}
+ul#menu-sidebarmenu li {
+margin-bottom: 5px;
+list-style: none;
+font-size: 13px;
+}
+ul#menu-sidebarmenu li ul {
+margin-top: 3px;
+}
+ul#menu-sidebarmenu li ul li a {
+font-size: 85%;
+}
+ul#menu-sidebarmenu li.active {
+font-weight: 600;
+}
+h1.page-title {
+text-transform: uppercase;
+font-size: 1.4em;
+}
+
+input {
+  border-radius: 0 !important;
+}
+
+input[type=number] {
+-moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button { 
+ -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+/* twitter */
+.stories-main {
+	min-height: 600px;
+}
+
+.stories-main .tweet {
+padding: 10px;
+border: 1px solid #bbbbbb;
+margin: 8px 0;
+}
+
+
+/* woo product page */
+.variation-shipping {
+display: none;
+}
+.wcwl_email_field label {
+text-transform: lowercase;
+}
+input[type=email]#wcwl_email {
+margin-left: 16px;
+height: 42px;
+width: 180px;
+margin-bottom: 14px;
+}
+.upsells {
+display: none;
+}
+.variations .reset_variations {
+display: none !important;
+visibility: hidden !important;
+}
+
+.variations #size {
+max-width: 180px;
+}
+
+.padding {
+margin-top: 10px;
+}
+
+.pp_pic_holder .ppt {
+display: none !important;
+}
+
+.button.alt.single_add_to_cart_button {
+background: #000;
+width: 180px;
+height: 42px;
+}
+.button.alt.single_add_to_cart_button:hover {
+background: #000;
+}
+.button.alt.woocommerce_waitlist {
+width: 180px;
+margin-left: 108px;
+padding: 9px;
+}
+/* woo checkout page */
+#order_comments_field {
+  display: none;
+}
+.visible-for-large-up {
+display: none;
+}
+input[type=submit].button.alt#place_order,
+input[name="apply_coupon"] {
+background-color: #000000;
+border: 1px solid #000000;
+background-image: none;
+}
+.checkout-button.button.alt.wc-forward:hover, 
+input[type=submit].button.alt#place_order:hover,
+input[name="apply_coupon"]:hover {
+background-color: #bbbbbb !important;
+border: 1px solid #bbbbbb !important;
+}
+.checkout-button.button.alt.wc-forward {
+    padding: 3.5px 10px;
+    font-size: 14px;
+}
+
+/* cart dropdown */
+.wc-nav-top {
+float: right;
+margin-bottom: 0;
+}
+.dropdown-cart-button img {
+    width: 14px;
+    vertical-align: top;
+    padding-top: 4px;
+}
+.dropdown-cart-button {
+background: none;
+border: none;
+padding: 0;
+}
+.dropdown-cart-button .dropdown {
+padding: 0;
+}
+.dropdown-cart-button .dropdown.dropdown-left {
+left: -100px;
+height: auto;
+}
+.dropdown-cart-button .dropdown-total {
+background: none;
+padding: 0;
+}
+.dropdown-cart-button .dropdown .cart_list {
+padding: 0;
+}
+.dropdown-cart-button .dropdown .cart_list li {
+padding: 10px;
+}
+.dropdown-cart-button .dropdown .cart_list a {
+text-transform: none;
+padding: 0;
+}
+.dropdown-cart-button .dropdown .cart_list img {
+margin-right: 10px;
+}
+.dropdown-cart-button .dropdown .total {
+padding: 10px;
+} 
+
+/* 
+DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+
+@media only screen and (min-width: 768px) {
+	/*my account login menu */
+	#menu-item-741 {
+	display: none;
+	}
+
+	.woocommerce-checkout #main.fullwidth{
+	    float: left;
+	}
+
+	/* Desktop styles go here */
+	#shoppingBagCount {
+		display: none;
+	}
+	.visible-for-large-up {
+		display: block;
+	}
+
+	.position-hoverbox {
+	    top: 40%;
+	}   
+	#nav-search #searchform form {
+	display: inline-block;
+	margin: 0;
+	}
+
+	#nav-search #searchform input[type=search] {
+	border: none;
+	border-bottom: 1px solid #e6e6e6;
+	margin: 0;
+	text-transform: uppercase;
+	}
+
+	/* top menu */
+	#main-nav li {
+	max-width: 130px;
+	}
+	#main-nav .sub-menu li a {
+	font-size: 11px;
+	}
+	#main-nav #menu-item-56 .sub-menu {
+	width: 300px;
+	min-height: 183px;
+	background-image: url('http://coverstoryllc.s3-us-west-2.amazonaws.com/wp-content/uploads/2016/01/27232033/unnamed-41.jpg') !important;
+	background-repeat: no-repeat !important;
+	background-position: 130px 15px !important;
+	}
+	#main-nav #menu-item-99 .sub-menu {
+	width: 300px;
+	min-height: 183px;
+	background-image: url('http://coverstoryllc.s3-us-west-2.amazonaws.com/wp-content/uploads/2016/01/28003907/ControversyNYC_1-9-20161590.jpeg') !important;
+	background-repeat: no-repeat !important;
+	background-position: 130px 15px !important;
+	}
+	#main-nav #menu-item-557 .sub-menu {
+	width: 300px;
+	min-height: 183px;
+	background-image: url('http://coverstoryllc.s3-us-west-2.amazonaws.com/wp-content/uploads/2016/03/12220038/unnamed-6.jpg') !important;
+	background-repeat: no-repeat !important;
+	background-position: 130px 15px !important;
+	}
+	#main-nav #menu-item-742 .sub-menu {
+	width: 300px;
+	min-height: 183px;
+	background-image: url('http://coverstoryllc.s3-us-west-2.amazonaws.com/wp-content/uploads/2016/03/12215800/unnamed-7.jpg') !important;
+	background-repeat: no-repeat !important;
+	background-position: 130px 15px !important;
+	}
+
+	.menu-sidebarmenu-container {
+	display: block;
+	text-transform: uppercase;
+	font-size: 14px;
+	}
+	#top .dropdown-total img {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.dropdown-cart-button .dropdown.dropdown-left {
+	    left: -300px;
+	    height: auto;
+	}
+	.dropdown-cart-button .dropdown-total {
+	position: absolute;
+    	top: 48px;
+    	right: 0;
+	}
+	#shoppingBagCount {
+	width: 2.8rem;
+    height: 2.8rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    padding: 0.2rem 0 0 0;
+    color: white;
+    background: black;
+	}
+	#header {
+	margin-bottom: 0;
+	}
+	#header #logo {
+	    width: 220px;
+	    margin: 0 auto;
+	}
+	.sub-menu {
+	display: none;
+	}
+	#top li.checkout, #top .signin, #top .signout, #top #shoppingBag {
+	display: none;
+	}
+
+}
+
